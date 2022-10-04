@@ -5,13 +5,13 @@ variable "instance_type" {
 
 variable "ami_id" {
   type    = string
-  default = "ami-06489866022e12a14"
+  default = "ami-01216e7612243e0ef"
 
 }
 
 variable "key_name" {
   type    = string
-  default = "newkey"
+  default = "mackey"
 }
 
 variable "subnet_id" {
